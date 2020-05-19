@@ -1,0 +1,6 @@
+framework module JNModuleTool {
+  umbrella header "JNModuleTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

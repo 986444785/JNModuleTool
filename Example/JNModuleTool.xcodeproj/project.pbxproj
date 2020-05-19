@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12221E1F4C02A6A0E89C67C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		12221E1F4C02A6A0E89C67C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2266895E02164723C45914DA /* Pods-JNModuleTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNModuleTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-JNModuleTool_Tests/Pods-JNModuleTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		50A0CCF0FE55D748A8B5A42B /* Pods-JNModuleTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNModuleTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JNModuleTool_Tests/Pods-JNModuleTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		566A897F6F08D939A3A93795 /* Pods-JNModuleTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNModuleTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-JNModuleTool_Example/Pods-JNModuleTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +62,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		636F5C010E5D28A72531731E /* Pods-JNModuleTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNModuleTool_Example.release.xcconfig"; path = "Target Support Files/Pods-JNModuleTool_Example/Pods-JNModuleTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		789B2E63E3C76280B27AC579 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		789B2E63E3C76280B27AC579 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7594001B6AD2271334B300B /* Pods_JNModuleTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNModuleTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC84BC27D1E7BFDACB81CA85 /* Pods_JNModuleTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNModuleTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE5E1EC8B95FBE36D8DFE807 /* JNModuleTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JNModuleTool.podspec; path = ../JNModuleTool.podspec; sourceTree = "<group>"; };
+		BE5E1EC8B95FBE36D8DFE807 /* JNModuleTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JNModuleTool.podspec; path = ../JNModuleTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				50A0CCF0FE55D748A8B5A42B /* Pods-JNModuleTool_Tests.debug.xcconfig */,
 				2266895E02164723C45914DA /* Pods-JNModuleTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
