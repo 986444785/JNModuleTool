@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "JNPeople.h"
+#import "SegmentTitleView.h"
 
 FOUNDATION_EXPORT double JNModuleToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char JNModuleToolVersionString[];
