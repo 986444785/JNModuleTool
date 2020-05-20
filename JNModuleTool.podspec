@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JNModuleTool'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JNModuleTool.'
+  s.version          = '0.1.3'
+  s.summary          = 'description of JNModuleTool.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,30 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#  s.description      = <<-DESC
+#TODO: Add long description of the pod here.
+ #                      DESC
 
-  s.homepage         = 'https://github.com/986444785@qq.com/JNModuleTool'
+ s.description      = '这是一个相关的描述，要比 s.summary 的字符串长一些就可以了'
+ 
+ 
+  # s.homepage         = 'https://github.com/986444785@qq.com/JNModuleTool'
+
+    s.homepage         = 'https://github.com/986444785/JNModuleTool'
+  
+  
+  
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '986444785@qq.com' => '986444785@qq.com' }
-  s.source           = { :git => 'https://github.com/986444785@qq.com/JNModuleTool.git', :tag => s.version.to_s }
+  
+#  s.source           = { :git => 'https://github.com/986444785@qq.com/JNModuleTool.git', :tag => s.version.to_s }
+  
+    s.source           = { :git => 'https://github.com/986444785/JNModuleTool.git', :tag => '0.1.3' }
+  
+  
+  
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
